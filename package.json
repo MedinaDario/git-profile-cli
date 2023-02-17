@@ -1,0 +1,30 @@
+{
+  "name": "git-profile-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedinaDario/git-profile-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedinaDario/git-profile-cli/issues"
+  },
+  "homepage": "https://github.com/MedinaDario/git-profile-cli#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "lowdb": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/lowdb": "^1.0.11",
+    "typescript": "^4.9.5"
+  }
+}
